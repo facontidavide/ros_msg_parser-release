@@ -1,0 +1,12 @@
+Source: ros-melodic-ros-msg-parser
+Section: misc
+Priority: optional
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-rosbag-storage, ros-melodic-roscpp, ros-melodic-roscpp-serialization, ros-melodic-sensor-msgs, ros-melodic-tf2
+Homepage: http://www.ros.org/wiki/ros_type_introspection
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ros-msg-parser
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-rosbag-storage, ros-melodic-roscpp, ros-melodic-roscpp-serialization, ros-melodic-sensor-msgs
+Description: Successor of ros_type_introspection
