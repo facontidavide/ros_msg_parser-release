@@ -1,0 +1,12 @@
+Source: ros-noetic-ros-msg-parser
+Section: misc
+Priority: optional
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev, ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-rosbag-storage, ros-noetic-roscpp, ros-noetic-roscpp-serialization, ros-noetic-sensor-msgs, ros-noetic-tf2
+Homepage: http://www.ros.org/wiki/ros_type_introspection
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ros-msg-parser
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-geometry-msgs, ros-noetic-rosbag-storage, ros-noetic-roscpp, ros-noetic-roscpp-serialization, ros-noetic-sensor-msgs
+Description: Successor of ros_type_introspection
